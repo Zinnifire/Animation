@@ -1,0 +1,41 @@
+.Header{
+    background-color: lightgreen;
+    width: 1200px;
+    height: 100px;
+    padding-left: 300px;
+    padding-top: 100px;
+
+    
+   
+} 
+
+h1 {
+    display: flex;
+    font-size: xxx-large;
+   font-style: italic;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   justify-content: center;
+   text-shadow: 10px 10px red
+}
+p{
+display: flex;
+
+    align-items: center;
+    color: red;
+    justify-content: center;
+    font-family: monospace;
+   
+}
+
+.Jet{
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    animation-name: flyup;
+    animation-duration: 10s;
+}
+
+@keyframes flyup{
+from{transform: rotateX(0deg);}
+To{transform: rotatex(360deg);}
+}
